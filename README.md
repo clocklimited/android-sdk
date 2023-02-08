@@ -1,6 +1,6 @@
 # android-sdk
 
-This is a docker image which contains the Android SDK, Java 1.8, and Gradle 4.5.1.
+This is a docker image which contains the Android SDK, OpenJDK 8, and Gradle 4.5.1.
 
 You can alter the versions of build tools like so:
 
