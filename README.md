@@ -1,14 +1,14 @@
 # android-sdk
 
-This is a docker image which contains the Android SDK, OpenJDK 8, and Gradle 4.5.1.
+This is a docker image which contains the Android SDK, OpenJDK 11, and Gradle 4.5.1.
 
-You can alter the versions of build tools like so:
+You can alter the versions of build tools like so: (ran in the context of the container)
 
 ```
-~/android-sdk-linux/tools/bin/sdkmanager "platform-tools" "platforms;android-28" "build-tools;30.0.3"
+sdkmanager "platform-tools" "platforms;android-28" "build-tools;30.0.3"
 ```
 
-## Setting up the repo for DockerHub
+## Setting up a repo for DockerHub
 
 1. Create the GitHub repo (obviously)
 2. Login to DockerHub using `clockreleasebot`
