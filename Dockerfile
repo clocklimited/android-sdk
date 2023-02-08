@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:10
 
 # Install Git and dependencies
 RUN dpkg --add-architecture i386 \
