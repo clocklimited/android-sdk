@@ -8,6 +8,12 @@ You can alter the versions of build tools like so: (ran in the context of the co
 sdkmanager "platform-tools" "platforms;android-28" "build-tools;30.0.3"
 ```
 
+You should be identifying this image using digest, as a sane tagging system is not yet operational:
+
+```
+    image: clocklimited/android-sdk@sha256:b71b47bef7c35a439ba2a6c519ac61a8b249b722f4dbe8a096a143d94f91fe0d
+```
+
 ## Setting up a repo for DockerHub
 
 1. Create the GitHub repo (obviously)
