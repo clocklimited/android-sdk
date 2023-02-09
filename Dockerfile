@@ -8,7 +8,8 @@ RUN dpkg --add-architecture i386 \
  && rm -rf /var/lib/apt/lists /var/cache/apt
 
 # Set up environment variables
-ENV ANDROID_HOME="/root/android-sdk-linux" \
+ENV ANDROID_HOME="/root/android-sdk-linux" \ 
+    ANDROID_SDK_ROOT="/root/android-sdk-linux" \
     SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
     CLI_URL="https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip" \
     GRADLE_URL="https://services.gradle.org/distributions/gradle-7.6-bin.zip"
